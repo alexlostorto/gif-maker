@@ -20,4 +20,3 @@ def traverse(root, question):
 
         print(f"You chose '{dirs[dir-1]}'\n")
         root = os.path.join(root, dirs[dir-1])
-

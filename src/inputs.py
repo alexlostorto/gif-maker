@@ -14,17 +14,3 @@ def getInput(array, question):
             # Chooses file
             userInput = int(userInput)
             return userInput
-        
-
-def yesNo(question):
-    userInput = input(question)
-    print()
-
-    while True:
-        # Check input is acceptable
-        if userInput == '':
-            print(f"Don't leave me empty!")
-        elif userInput.lower() in ['y', 'ye', 'yes', 'yeah']:
-            return True
-        elif userInput.lower() in ['n', 'no', 'nop', 'nope']:
-            return False
