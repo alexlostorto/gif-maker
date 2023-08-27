@@ -1,5 +1,5 @@
 import os
-from lib.inputs import getInput
+from src.inputs import getInput
 
 
 def traverse(root, question):
