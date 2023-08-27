@@ -4,9 +4,11 @@
   <b>Your own little photo booth!</b>
 </p>
 
+<img width="250px" align="right" src=".github/27-08-2023 22-01-28.gif">
+
 [![Maintainability](https://img.shields.io/codeclimate/maintainability/alexlostorto/gif-maker?style=for-the-badge&message=Code+Climate&labelColor=222222&logo=Code+Climate&logoColor=FFFFFF)](https://codeclimate.com/github/alexlostorto/gif-maker/maintainability)
 
-Automatically takes photos in rapid succession and converts them into GIFs.
+Automatically takes **photos** in rapid succession and converts them into **GIFs**.
 
 ## ⚡ Quick setup
 
