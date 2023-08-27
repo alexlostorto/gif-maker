@@ -6,9 +6,10 @@ from src.gif import createGIF, deleteFiles
 
 
 ROOT = r"C:\Users\[Users]\[pythonFiles]"
+ROOT = r"C:\Users\User\Documents\Code\Other\gif-maker"
 TIMER = 2   # Seconds
 DELAY = 50  # Milliseconds
-AMOUNT = 10  # Number of frames
+AMOUNT = 20  # Number of frames
 
 
 def main():

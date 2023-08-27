@@ -22,7 +22,9 @@ def takePictures(saveDir, timer, delay, amount):
     delay = delay / 1000
     files = []
 
-    # time.sleep(timer)
+    print("Get ready!")
+
+    time.sleep(timer)
 
     for i in range(amount):
         now = datetime.now()
