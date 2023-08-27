@@ -12,7 +12,8 @@ def main():
     assert os.path.isdir(ROOT)
 
     saveDir = traverse(ROOT, "Choose save directory (press ENTER to choose CWD): ")
-    takePicture(saveDir)
+    fileName = "giftest"
+    takePicture(saveDir, fileName)
 
 
 if __name__ == '__main__':

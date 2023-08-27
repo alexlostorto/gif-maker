@@ -1,8 +1,9 @@
+import os
 import cv2
 import numpy as np
 
 
-def takePicture():
+def takePicture(saveDir, fileName):
     # For devices with multiple cameras
     cameraPort = 0
     camera = cv2.VideoCapture(cameraPort)
@@ -11,7 +12,7 @@ def takePicture():
 
     if result:
         cv2.imshow("opencvtest", image)
-        cv2.imwrite(r"C:\Users\User\Documents\Code\Other\gif-maker\opencvtest.png", image)
+        cv2.imwrite(os.path.join(saveDir, fileName), image)
 
         # Press Esc key to exit
         if cv2.waitKey(1) == 27:
